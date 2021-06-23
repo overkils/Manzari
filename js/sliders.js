@@ -43,12 +43,12 @@ $('.slider__nav').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 3,
                 reInit: true,
             }
         },
         {
-            breakpoint: 576,
+            breakpoint: 577,
             settings: {
                 slidesToShow: 1,
                 reInit: true,
@@ -57,7 +57,7 @@ $('.slider__nav').slick({
     ],
 });
 
-$('.slider__tabs').slick ({
+$('.slider__tabs').slick({
     reInit: true,
     vertical: true,
     asNavFor: '.slider__nav',
