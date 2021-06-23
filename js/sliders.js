@@ -43,7 +43,7 @@ $('.slider__nav').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 reInit: true,
             }
         },

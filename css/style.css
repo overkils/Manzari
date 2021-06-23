@@ -1617,9 +1617,23 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .slider__nav > .slick-list {
+        max-width: unset;
+        margin: unset;
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+
     .swiper__slide-items {
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        max-width: 80vw;
+        margin-right: auto !important;
+        margin-left: auto;
+    }
+
+    .slider__nav > .slick-list > .slick-track > .slider-slide > .slider__imgs {
+        width: 280px;
+        height: 430px;
     }
 
     .swiper__slide-item {
@@ -2065,6 +2079,7 @@ body {
 
     .header__bottom-res > .header__bottom-link {
         font-size: 16px;
+        padding: 19px 25px;
     }
 
     .logo__title {
