@@ -1620,8 +1620,8 @@ body {
     .slider__nav > .slick-list {
         max-width: unset;
         margin: unset;
-        padding-left: 20% !important;
-        padding-right: 20% !important;
+        padding-left: 25% !important;
+        padding-right: 25% !important;
     }
 
     .swiper__slide-items {
