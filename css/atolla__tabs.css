@@ -1,0 +1,12 @@
+/* ///////////////////////////// tabs /////////////////////////////// */
+
+.swiper__slide-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px !important;
+}
+
+.swiper__slide-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

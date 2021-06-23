@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/atolla-reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/burger-menu.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/atolla__tabs.css">
+    <link rel="stylesheet" href="css/at-modal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Стиль для каждой истории - Manzari</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <nav class="header__nav">
+                    <a href="#" class="header__logo"><img src="image/logo.svg" alt="Logo" class="logo header__logo"></a>
+                    <nav class="at-menu">
+                        <button class="at-menu__btn" aria-label="Open the menu">
+                            <span class="at-menu__line"></span>
+                        </button>
+                        <ul class="at-menu__list">
+                            <li class="at-menu__item">
+                                <a href="#about" class="at-menu__link">О нас</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="#slider-tabs" class="at-menu__link">Коллекции</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="#auth" class="at-menu__link">Аутентичность</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="#slider" class="at-menu__link">Шоурум</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="about_fur.html" class="at-menu__link">Уход</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="#contacts" class="at-menu__link">Контакты</a>
+                            </li>
+                            <li class="at-menu__item">
+                                <a href="#forms" class="at-menu__item--btn">Запись на примерку</a>
+                            </li>
+                        </ul>
+                        <div class="at-menu__lists">
+                            <ul class="at-menu__lista">
+                                <li class="at-menu__item">
+                                    <a href="#about" class="at-menu__link">О нас</a>
+                                </li>
+                                <li class="at-menu__item">
+                                    <a href="#slider-tabs" class="at-menu__link">Коллекции</a>
+                                </li>
+                                <li class="at-menu__item">
+                                    <a href="#auth" class="at-menu__link">Аутентичность</a>
+                                </li>
+                                <li class="at-menu__item">
+                                    <a href="#slider" class="at-menu__link">Шоурум</a>
+                                </li>
+                                <li class="at-menu__item">
+                                    <a href="about_fur.html" class="at-menu__link">Уход</a>
+                                </li>
+                                <li class="at-menu__item">
+                                    <a href="#contacts" class="at-menu__link">Контакты</a>
+                                </li>
+                            </ul>
+                            <ul class="at-menu__socials">
+                                <li class="at-menu__social">
+                                    <a href="mailto:Manzari.ukraine@gmail.com"
+                                        class="at-menu__links at-menu__links--email">E-mail</a>
+                                </li>
+                                <li class="at-menu__social">
+                                    <a href="https://instagram.com/manzari_ukraine?utm_medium=copy_link"
+                                        class="at-menu__links at-menu__links--inst">Instagram</a>
+                                </li>
+                                <li class="at-menu__social">
+                                    <a href="https://www.facebook.com/manzariukraine/?hc_ref=ARTyWTCVGSXO92rwTOxkCJr2oZRCIk1Tc1B2ziN8B4W-HKihUAPGyIzvVvP8hAKJzhA&fref=nf"
+                                        class="at-menu__links at-menu__links--fb">Facebook</a>
+                                </li>
+                                <li class="at-menu__social">
+                                    <a href="whatsapp://send?phone=+380993712772"
+                                        class="at-menu__links at-menu__links--wap">Whatsapp</a>
+                                </li>
+                                <li class="at-menu__social">
+                                    <a href="viber://chat?number=%2B380993712772"
+                                        class="at-menu__links at-menu__links--viber">Viber</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+        <div class="header__bottom" style="background-image: url(image/header__bg.jpg);">
+            <div class="container">
+                <div class="header__logos">
+                    <h1 class="logo__title">Официальный представитель
+                        MANZARI в Украине</h1>
+                    <a href="#forms" class="btn header__bottom-link">Запись на примерку</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__bottom-res">
+                <h1 class="logo__title">Официальный представитель
+                    MANZARI <br> в Украине</h1>
+                <a href="#forms" class="btn header__bottom-link">Запись на примерку</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="about__list">
+                    <img src="image/about__1.jpg" alt="about first img">
+                    <div class="about__text" id="about">
+                        <h2 class="title about__title">О нас</h2>
+                        <ul class="about__items about__items--first">
+                            <li class="about__item">
+                                <p>
+                                    Меховой салон Manzari Fur Store предлагает изделия из натурального меха известного
+                                    бренда Manzari Luxury
+                                    Furs по эксклюзивным ценам. Партнерские отношения с крупнейшим производителем
+                                    меховых изделий в Европе
+                                    Manzari позволяют предлагать нашим покупателям самые выгодные условия.
+                                </p>
+                            </li>
+                            <li class="about__item">
+                                <p>
+                                    Компания Manzari существует на рынке уже более 20 лет, и за это время небольшая
+                                    мастерская превратилась в
+                                    огромное производство, где на площади более 2,5 тыс. кв. м разместились
+                                    административный и дизайнерский
+                                    отделы, фабрика, прачечные, химчистки и выставочные залы.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about__list">
+                    <ul class="about__items about__items--last">
+                        <li class="about__item">
+                            <p>
+                                На сегодняшний день изделия Manzari, представленные в каталоге нашего магазина, являются
+                                невероятно
+                                востребованными не только в Украине, но и по всему миру. Бутики с одеждой Manzari
+                                встречаются в Европе,
+                                Азии, США, Канаде и ОАЭ.
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p>
+                                Изделия из натурального меха данного бренда смотрятся изысканно и роскошно, а качество
+                                меха, отделки и
+                                пошива является безупречным. Коллекции бренда Manzari Luxury Furs отличаются
+                                неповторимым стилем, изяществом
+                                и красотой.
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p>
+                                Наши меха согреют не только тело, но и душу! Консультанты нашего салона с удовольствием
+                                проинформируют вас о
+                                характеристиках меховых изделий, наличии отдельных размеров и моделей.
+                            </p>
+                        </li>
+                    </ul>
+                    <img class="about__items--last-img" src="image/about__2.jpg" alt="about first img">
+                </div>
+            </div>
+        </section>
+        <section class="slider-tabs" id="slider-tabs">
+            <h2 class="title slider__title">Коллекции</h2>
+            <div class="containers">
+                <div class="pagingInfo">
+                    <span class="pagingCurrent"></span>
+                    <span class="separator">/</span>
+                    <span class="pagingAll"></span>
+                </div>
+                <div class="slider__nav">
+                    <div class="slider-slide">
+                        <img class="slider__imgs" src="image/slider/slider__item1.jpg" alt="slider item">
+                        <span class="slider__text">Соболь</span>
+                    </div>
+                    <div class="slider-slide">
+                        <img class="slider__imgs" src="image/slider/slider__item2.jpg" alt="slider item">
+                        <span class="slider__text">Норка</span>
+                    </div>
+                    <div class="slider-slide">
+                        <img class="slider__imgs" src="image/slider/slider__item3.jpg" alt="slider item">
+                        <span class="slider__text">Шиншилла</span>
+                    </div>
+                    <div class="slider-slide">
+                        <img class="slider__imgs" src="image/slider/slider__item2.jpg" alt="slider item">
+                        <span class="slider__text">Норка</span>
+                    </div>
+                    <div class="slider-slide">
+                        <img class="slider__imgs" src="image/slider/slider__item3.jpg" alt="slider item">
+                        <span class="slider__text">Шиншилла</span>
+                    </div>
+                </div>
+                <div class="slider__tabs">
+                    <div class="slider-slide">
+                        <ul class="swiper__slide-items">
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--1.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--1.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--3.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--3.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--4.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--4.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--5.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--5.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--6.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--6.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--7.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--7.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--8.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--8.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--9.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--9.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--10.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--10.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--11.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--11.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--12.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--12.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-slide">
+                        <ul class="swiper__slide-items">
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--1.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--1.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--3.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--3.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--4.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--4.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--5.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--5.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--6.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--6.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--7.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--7.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--8.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--8.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--9.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--9.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--10.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--10.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--11.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--11.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--12.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--12.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-slide">
+                        <ul class="swiper__slide-items">
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--5.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--5.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--6.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--6.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--7.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--7.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--8.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--8.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--9.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--9.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--10.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--10.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--11.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--11.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--12.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--12.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-slide">
+                        <ul class="swiper__slide-items">
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--1.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--1.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--3.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--3.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--4.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--4.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--5.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--5.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--6.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--6.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--7.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--7.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--8.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--8.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--9.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--9.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--10.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--10.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--11.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--11.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--12.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--12.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-slide">
+                        <ul class="swiper__slide-items">
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--1.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--1.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--2.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--2.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--3.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--3.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--4.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--4.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--5.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--5.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--6.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--6.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--7.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--7.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--8.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--8.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--9.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--9.jpg" class="swiper__img" data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--10.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--10.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--11.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--11.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                            <li class="swiper__slide-item">
+                                <img src="image/tabs/tabs__item1--12.jpg" alt="" class="swiper-img">
+                                <a href="image/tabs/tabs__item1--12.jpg" class="swiper__img"
+                                    data-fancybox="gallery"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sea__content nothing" id="tabs2">
+
+                </div>
+                <button class="swiper-tabs__btn btn see-more" id="trns" type="button">
+                    Еще
+                </button>
+            </div>
+        </section>
+        <section class="auth" id="auth">
+            <h2 class="title auth__title">Аутентичность</h2>
+            <div class="container">
+                <div class="auth__wrapper">
+                    <div class="auth__img-bg">
+                        <img src="image/auth__bg.jpg" alt="auth__bg" class="auth__img">
+                    </div>
+                    <div class="auth__text">
+                        <p>Аутентичность продукции «MANZARI» подтверждается специальной голограммой, которая
+                            наклеивается на каждый ярлык
+                            мехового изделия. На голограмме указывается штрих код каждого изделия, который не
+                            повторяется.
+                        </p>
+                        <p>Идентификация кода производится через веб-сайт, где для этого предусмотрена специальная
+                            секция. Вам остается
+                            только ввести Ваши данные и подтвердить, что Вы являетесь владельцем данного мехового
+                            изделия.</p>
+                        <a href="https://www.manzari.gr/authenticity/" type="button" class="auth__btn btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider" id="slider">
+            <h2 class="title slider__title">Шоурум</h2>
+            <div class="container">
+                <ul class="slick">
+                    <li class="slick-slide slick-slides">
+                        <img src="image/slider.jpg" alt="slider__item" class="slick__img">
+                    </li>
+                    <li class="slick-slide slick-slides">
+                        <img src="image/slider.jpg" alt="slider__item" class="slick__img">
+                    </li>
+                    <li class="slick-slide slick-slides">
+                        <img src="image/slider.jpg" alt="slider__item" class="slick__img">
+                    </li>
+                    <li class="slick-slide slick-slides">
+                        <img src="image/slider.jpg" alt="slider__item" class="slick__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="form" id="forms">
+            <h2 class="title form__title">Запись на примерку</h2>
+            <div class="form__img-bgres">
+                <img src="image/form__bg.jpg" alt="Form-bg">
+            </div>
+            <div class="form__send">
+                <div class="container">
+                    <div class="form__wrapper">
+                        <h3 class="form__subtitle">Записаться на примерку</h3>
+                        <form enctype="multipart/form-data" method="POST" id="form" onsubmit="send(event, 'send.php')"
+                            class="forms__send">
+                            <p class="form__text">Имя</p>
+                            <input class="forms__send-input" type="text" id="name" name="name" placeholder="Татьяна"
+                                required autocomplete="off">
+                            <p class="form__text">Телефон</p>
+                            <input class="forms__send-input forms__send-tel" id="phone_input"
+                                pattern="^([+][3][8][(][0]){1}(\d){2}([)]){1}([ ][\d]{3}[ ][\d]{2}[ ][\d]{2})$"
+                                type="tel" id="tel" name="tel" placeholder="+38(0__) ___ __ __" required>
+                            <button class="forms__send-btn btn at-btn" type="submit"
+                                id="forms__send-btn">Записаться</button>
+                        </form>
+                        <img src="image/form__bg.jpg" alt="Form-bg" class="form__img-bg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <h2 class="title contacts__title">Контакты</h2>
+            <address class="contacts__itemss">
+                <iframe class="contacts__maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.6992210797!2d30.251820602640226!3d50.40169738629851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sby!4v1622817313816!5m2!1sru!2sby"
+                    width="728" height="499" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contacts__wrapper">
+                    <ul class="contacts__items">
+                        <li class="contacts__item">
+                            <span>Адрес</span>
+                            <p>ул. Большая Васильковская, 134, г.Киев.</p>
+                        </li>
+                        <li class="contacts__item">
+                            <span>Часы работы:</span>
+                            <p>Понедельник - воскресенье: 11.00 - 19.00</p>
+                        </li>
+                    </ul>
+                    <a href="tel:+380970001122" class="contacts__num">+380970001122</a>
+                    <ul class="contacts__socials">
+                        <li class="contacts__social" style="background-image: url(image/icon/email.svg);">
+                            <a href="mailto:Manzari.ukraine@gmail.com" class="contacts__link">E-mail</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/inst.svg);">
+                            <a href="https://instagram.com/manzari_ukraine?utm_medium=copy_link"
+                                class="contacts__link">Instagram</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/fb.svg);">
+                            <a href="https://www.facebook.com/manzariukraine/?hc_ref=ARTyWTCVGSXO92rwTOxkCJr2oZRCIk1Tc1B2ziN8B4W-HKihUAPGyIzvVvP8hAKJzhA&fref=nf"
+                                class="contacts__link">Facebook</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/wap.svg);">
+                            <a href="whatsapp://send?phone=+380993712772" class="contacts__link">Whatsapp</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/viber.svg);">
+                            <a href="viber://chat?number=%2B380993712772" class="contacts__link">Viber</a>
+                        </li>
+                    </ul>
+                </div>
+            </address>
+            <address class="contacts__itemss-res">
+                <div class="contacts__maps">
+                    <iframe class="contacts__maps-img"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.1963866064476!2d30.52412292609076!3d50.41467277820197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf3c19c3c4f9%3A0xa57c982b165899ac!2z0YPQuy4g0JHQvtC70YzRiNCw0Y8g0JLQsNGB0LjQu9GM0LrQvtCy0YHQutCw0Y8sIDEzNCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMzE1MA!5e1!3m2!1sru!2sby!4v1624211746712!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contacts__wrapper">
+                    <ul class="contacts__items">
+                        <li class="contacts__item">
+                            <span>Адрес</span>
+                            <p>ул. Большая Васильковская, 134, г.Киев.</p>
+                        </li>
+                        <li class="contacts__item">
+                            <span>Часы работы:</span>
+                            <p>Понедельник - воскресенье: 11.00 - 19.00</p>
+                        </li>
+                    </ul>
+                    <a href="tel:+380970001122" class="contacts__num">+380970001122</a>
+                    <ul class="contacts__socials">
+                        <li class="contacts__social" style="background-image: url(image/icon/email.svg);">
+                            <a href="mailto:Manzari.ukraine@gmail.com" class="contacts__link">E-mail</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/inst.svg);">
+                            <a href="https://instagram.com/manzari_ukraine?utm_medium=copy_link"
+                                class="contacts__link">Instagram</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/fb.svg);">
+                            <a href="https://www.facebook.com/manzariukraine/?hc_ref=ARTyWTCVGSXO92rwTOxkCJr2oZRCIk1Tc1B2ziN8B4W-HKihUAPGyIzvVvP8hAKJzhA&fref=nf"
+                                class="contacts__link">Facebook</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/wap.svg);">
+                            <a href="whatsapp://send?phone=+380993712772" class="contacts__link">Whatsapp</a>
+                        </li>
+                        <li class="contacts__social" style="background-image: url(image/icon/viber.svg);">
+                            <a href="viber://chat?number=%2B380993712772" class="contacts__link">Viber</a>
+                        </li>
+                    </ul>
+                </div>
+            </address>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="footer__menu">
+                    <li class="footer__items">
+                        <a class="footer__items-link" href="#about">О нас</a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__items-link" href="#slider-tabs">Коллекции</a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__items-link" href="#auth">Аутентичность</a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__items-link" href="#slider">Шоурум</a>
+                    </li>
+                    <li class="footer__items">
+                        <a class="footer__items-link" href="about_fur.html">О мехах</a>
+                    </li>
+                </ul>
+                <div class="footer__centr">
+                    <a href="#" class="footer__logo">
+                        <img src="image/logo.svg" alt="logo" class="footer__img"></a>
+                    <ul class="footer__copys">
+                        <li class="footer__copy">
+                            <a href="#" class="footer__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__copy">
+                            <a href="#" class="footer__link">Договор публичной офферты</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer__socials">
+                    <li class="footer__social">
+                        <a href="mailto:Manzari.ukraine@gmail.com" class="footer__links footer__links--email">E-mail</a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://instagram.com/manzari_ukraine?utm_medium=copy_link"
+                            class="footer__links footer__links--inst">Instagram</a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://www.facebook.com/manzariukraine/?hc_ref=ARTyWTCVGSXO92rwTOxkCJr2oZRCIk1Tc1B2ziN8B4W-HKihUAPGyIzvVvP8hAKJzhA&fref=nf"
+                            class="footer__links footer__links--fb">Facebook</a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="whatsapp://send?phone=+380993712772"
+                            class="footer__links footer__links--wap">Whatsapp</a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="viber://chat?number=%2B380993712772"
+                            class="footer__links footer__links--viber">Viber</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper-res">
+                <div class="footer__centr">
+                    <a href="#" class="footer__logo">
+                        <img src="image/logo.svg" alt="logo" class="footer__img"></a>
+                    <ul class="footer__copys">
+                        <li class="footer__copy">
+                            <a href="#" class="footer__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__copy">
+                            <a href="#" class="footer__link">Договор публичной офферты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__container">
+                    <ul class="footer__menu">
+                        <li class="footer__items">
+                            <a class="footer__items-link" href="#about">О нас</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__items-link" href="#slider-tabs">Коллекции</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__items-link" href="#auth">Аутентичность</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__items-link" href="#slider">Шоурум</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__items-link" href="about_fur.html">О мехах</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li class="footer__social">
+                            <a href="mailto:Manzari.ukraine@gmail.com"
+                                class="footer__links footer__links--email">E-mail</a>
+                        </li>
+                        <li class="footer__social">
+                            <a href="https://instagram.com/manzari_ukraine?utm_medium=copy_link"
+                                class="footer__links footer__links--inst">Instagram</a>
+                        </li>
+                        <li class="footer__social">
+                            <a href="https://www.facebook.com/manzariukraine/?hc_ref=ARTyWTCVGSXO92rwTOxkCJr2oZRCIk1Tc1B2ziN8B4W-HKihUAPGyIzvVvP8hAKJzhA&fref=nf"
+                                class="footer__links footer__links--fb">Facebook</a>
+                        </li>
+                        <li class="footer__social">
+                            <a href="whatsapp://send?phone=+380993712772"
+                                class="footer__links footer__links--wap">Whatsapp</a>
+                        </li>
+                        <li class="footer__social">
+                            <a href="viber://chat?number=%2B380993712772"
+                                class="footer__links footer__links--viber">Viber</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="at-modal">
+        <div class="at-modal__body">
+            <div class="at-modal__content">
+                <img src="../image/modal__img.jpg" alt="Modal Img">
+                <div class="at-modal__info">
+                    <h2 class="at-modal__title">Ваша заявка принята!</h2>
+                    <p class="at-modal__text">Наш менеджер свяжется с Вами в течении пяти минут и поможет Вам подобрать
+                        удобное
+                        время для
+                        примерки.</p>
+                </div>
+                <button class="at-modal__close" type="button" onclick="close_modal()"></button>
+            </div>
+        </div>
+        <script src="js/burger-menu.js"></script>
+        <script src="js/at-modal.js"></script>
+        <script src="js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <script src="js/sliders.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/atolla-tabs.js"></script>
+        <script>
+            $(function () {
+                $("#phone_input").mask("+38(099) 999 99 99");
+            });
+        </script>
+</body>
+
+</html>
+<!-- Creating and powerd by Overkills(Даниил), Iluas(Илья) -->

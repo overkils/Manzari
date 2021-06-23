@@ -1,0 +1,335 @@
+/* ATOLLA BURGER MENU */
+
+/*===================== ATOLLA =========================*/
+
+.at-menu {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-menu__btn {
+    display: none;
+}
+
+.at-menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.at-menu__item--btn,
+.at-menu__link {
+    white-space: nowrap;
+}
+
+.at-menu__item--btn {
+    margin-right: 10px;
+}
+
+.at-menu__socials {
+    display: none;
+}
+
+.at-menu__link {
+    border-bottom: 1px solid transparent;
+    transition: font-weight 0.3s, font-size 0.3s, border-bottom 0.3s, text-shadow 0.3s;
+}
+
+.at-menu__link:hover {
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+}
+
+.at-menu__link:active {
+    border-bottom: 1px solid #fff;
+}
+
+.at-menu__item:not(:last-child) {
+    margin-right: 20px;
+    /*отступы между кнопками*/
+}
+
+
+.at-menu__item--btn {
+    border: 1px solid #fff;
+    padding: 13px 11px;
+    font-size: 18px;
+    background-color: transparent;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.at-menu__item--btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.at-menu__social:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.at-menu__links {
+    padding-left: 35px;
+    position: relative;
+    font-size: 24px;
+}
+
+.at-menu__links--email::before,
+.at-menu__links--inst::before,
+.at-menu__links--fb::before,
+.at-menu__links--wap::before,
+.at-menu__links--viber::before {
+    position: absolute;
+    left: -17px;
+    object-fit: cover;
+}
+
+.at-menu__links--email::before {
+    content: url(../image/icon/emailF.svg);
+    height: 22.5px;
+    width: 30px;
+    top: -2px;
+}
+
+.at-menu__links--inst::before {
+    content: url('../image/icon/instF.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.at-menu__links--fb::before {
+    content: url('../image/icon/fbF.svg');
+    width: 30px;
+    height: 30px;
+}
+
+.at-menu__links--wap::before {
+    content: url('../image/icon/wapF.svg');
+    width: 33px;
+    height: 33px;
+}
+
+.at-menu__links--viber::before {
+    content: url('../image/icon/viberF.svg');
+    width: 35px;
+    height: 35px;
+}
+
+.at-menu__lists {
+    display: none;
+}
+
+@media (max-width:992px) {
+    .at-menu__list {
+        display: none;
+    }
+
+
+    .at-menu__item:not(:last-child) {
+        margin-right: 0;
+        /*отступы между кнопками*/
+    }
+
+    .at-menu {
+        position: relative;
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+
+    .at-menu__lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        width: 101vw;
+        top: 24px;
+        transform: translatey(-150%);
+        /*напрвление движения*/
+        transition: transform 0.6s ease-in-out;
+        z-index: 990;
+        background-color: #000;
+        padding-top: 20px;
+        padding-bottom: 79px;
+        overflow: scroll;
+        color: #fff;
+        right: 0;
+        left: 0;
+    }
+
+    .at-menu__lists::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+    
+    .at-menu__lista {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .at-menu__link {
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .at-menu__socials {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .at-menu.at-menu-toggle .at-menu__lists {
+        transform: translatey(0);
+        /*напрвление движения*/
+    }
+
+    .at-menu__item {
+        margin-left: 35px;
+    }
+
+    .at-menu__item:not(:last-child) {
+        margin-bottom: 22px;
+    }
+
+    .at-menu__link {
+        max-width: fit-content;
+        display: block;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .at-menu__item--btn {
+        display: none;
+    }
+
+    /*---Анимация кнопки--*/
+
+    .at-menu__btn {
+        display: unset;
+        width: 40px;
+        height: 20px;
+        position: absolute;
+        right: 30px;
+        padding: 0;
+        z-index: 998;
+    }
+
+    .at-menu__line {
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .at-menu__line,
+    .at-menu__line::before,
+    .at-menu__line::after {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #f3f3f3;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .at-menu__line::before,
+    .at-menu__line::after {
+        content: "";
+    }
+
+    .at-menu__line::before {
+        top: -8px;
+        transition-property: top, transform;
+    }
+
+    .at-menu__line::after {
+        bottom: -8px;
+        transition-property: bottom, transform;
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line {
+        background-color: transparent;
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line::before,
+    .at-menu.at-menu-toggle .at-menu__line::after {
+        transition-duration: 0.3s, 0.3s;
+        transition-delay: 0s, 0.3s;
+    }
+
+    .at-menu__line::before,
+    .at-menu__line::after {
+        transition-duration: 0.3s, 0.3s;
+        transition-delay: 0.3s, 0s;
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line::before {
+        transition-property: top, transform;
+    }
+
+    .at-menu.at-menu-toggle .at-menu__line::after {
+        transition-property: bottom, transform;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 18px;
+    }
+
+    .at-menu__btn {
+        right: 20px;
+    }
+}
+
+@media screen  and (max-width: 565px) {
+    .at-menu__btn {
+        right: 15px;
+    }
+
+    .at-menu__lists {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        width: 101vw;
+        top: 24px;
+        transform: translatey(-150%);
+        /*напрвление движения*/
+        transition: transform 0.6s ease-in-out;
+        z-index: 990;
+        background-color: #000;
+        padding-top: 20px;
+        padding-bottom: 79px;
+        overflow: scroll;
+        color: #fff;
+        right: 0;
+        left: 0;
+    }
+
+    .at-menu__socials {
+        margin-left: 32px;
+        margin-top: 10px;
+    }
+}
+
+@media screen  and (max-width: 320px) {
+    .at-menu__btn {
+        max-width: 35px;
+        right: 5px !important;
+    }
+}
