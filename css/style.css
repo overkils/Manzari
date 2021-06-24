@@ -1548,6 +1548,10 @@ body {
         max-width: 992px;
     }
 
+    .forms__send {
+        padding-left: 0;
+    }
+
     .header__logo {
         margin-left: 0;
     }
