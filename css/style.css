@@ -1362,7 +1362,6 @@ body {
 
     .about__title {
         position: relative;
-        margin-left: -99px;
     }
 
     .about__title::after {
@@ -1721,6 +1720,14 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+    .about__title {
+        margin-left: -99px;
+    }
+
+    .about__title::after {
+        display: none;
+    }
+
     .about__list,
     .about__list-grids {
         margin-right: 0;
