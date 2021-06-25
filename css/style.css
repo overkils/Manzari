@@ -1476,11 +1476,10 @@ body {
 
     .contacts__wrapper {
         border: none;
-        padding-left: 25px;
+        padding-left: 0;
         padding-top: 400px;
         padding-bottom: 100px;
         position: relative;
-        border-right: none;
     }
 
     .about-fur__title,
