@@ -1588,10 +1588,6 @@ body {
         height: 328px;
     }
 
-    .contacts__itemss-res {
-        padding: 0 calc((100vw - min(942px, calc(100vw))) / 2);
-    }
-
     .about__items--first {
         margin-bottom: 0;
     }
@@ -1682,10 +1678,6 @@ body {
         transition: transform 0.5s;
         transform: translateY(50px);
         position: relative;
-    }
-
-    .contacts__itemss-res {
-        padding: 0 calc((100vw - min(738px, calc(100vw))) / 2);
     }
 
     .about__items-fur--last {
@@ -1815,10 +1807,6 @@ body {
         max-width: 425px;
     }
 
-    .contacts__itemss-res {
-        padding: 0 calc((100vw - min(528px, calc(100vw))) / 2);
-    }
-
     .about__items--first {
         padding-left: 20px;
     }
@@ -1852,10 +1840,6 @@ body {
 }
 
 @media screen and (max-width: 565px) {
-    .contacts__itemss-res {
-        padding: 0 calc((100vw - min(375px, calc(100vw))) / 2);
-    }
-
     .contacts__maps-img {
         max-width: 375px;
         max-height: 250px;
@@ -2007,7 +1991,6 @@ body {
     }
 
     .contacts__itemss-res {
-        padding: 0 calc((100vw - min(325px, calc(100vw))) / 2);
         margin-top: 160px;
         padding-bottom: 150px;
     }
