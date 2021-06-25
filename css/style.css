@@ -1317,6 +1317,10 @@ body {
         display: none;
     }
 
+    .forms__send {
+        padding-left: 0;
+    }
+
     .header__bottom {
         background-position-x: 70%;
     }
