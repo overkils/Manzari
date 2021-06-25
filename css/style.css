@@ -1828,7 +1828,7 @@ body {
     .contacts__socials,
     .contacts__social,
     .contacts__item {
-        max-width: fit-content;
+        max-width: 100vw;
     }
 
     .contacts__item {
